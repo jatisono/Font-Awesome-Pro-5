@@ -16,6 +16,14 @@ accessibility:
     - universal-access
     - wheelchair
   label: Accessibility
+animals:
+  icons:
+    - kiwi-bird
+    - frog
+    - crow
+    - dove
+    - feather
+  label: Animals
 arrows:
   icons:
     - angle-double-down
@@ -203,6 +211,8 @@ audio-video:
     - microphone
     - microphone-alt
     - microphone-slash
+    - microphone-alt-slash
+    - broadcast-tower
     - music
     - pause
     - pause-circle
@@ -238,14 +248,30 @@ audio-video:
     - volume-down
     - youtube
   label: Audio & Video
+buildings:
+  icons:
+    - school
+    - church
+    - hospital
+    - building
+    - hospital-alt
+    - home
+    - industry
+    - industry-alt
+    - university
+  label: Buildings
 business:
   icons:
+    - project-diagram
+    - stream
     - address-book
     - address-card
     - archive
     - badge
     - badge-check
     - balance-scale
+    - balance-scale-left
+    - balance-scale-right
     - birthday-cake
     - book
     - building
@@ -289,6 +315,8 @@ business:
     - pencil-alt
     - percent
     - phone
+    - wallet
+    - glasses
     - phone-slash
     - phone-square
     - phone-volume
@@ -337,6 +365,9 @@ charity:
     - usd-circle
     - usd-square
   label: Charity
+  sponsored:
+    label: The us-Sunnah Foundation
+    url: 'https://www.ussunnah.org'
 chat:
   icons:
     - comment
@@ -377,6 +408,9 @@ chat:
     - meh
     - frown
   label: Chat
+  sponsored:
+    label: Rocket.Chat
+    url: 'https://rocket.chat'
 chess:
   icons:
     - chess
@@ -405,6 +439,8 @@ code:
     - browser
     - bug
     - code
+    - project-diagram
+    - stream
     - code-branch
     - code-commit
     - code-merge
@@ -434,11 +470,13 @@ code:
   label: Code
 communication:
   icons:
+    - broadcast-tower
     - address-book
     - address-card
     - american-sign-language-interpreting
     - assistive-listening-systems
     - at
+    - chalkboard
     - bell
     - bell-slash
     - bluetooth
@@ -458,6 +496,7 @@ communication:
     - microphone
     - microphone-alt
     - microphone-slash
+    - microphone-alt-slash
     - mobile
     - mobile-alt
     - mobile-android
@@ -476,6 +515,8 @@ computers:
   icons:
     - database
     - desktop
+    - memory
+    - stream
     - desktop-alt
     - download
     - headphones
@@ -510,7 +551,11 @@ currency:
     - gg-circle
     - lira-sign
     - money-bill
+    - money-bill-wave
     - money-bill-alt
+    - money-bill-wave-alt
+    - money-check
+    - money-check-alt
     - pound-sign
     - ruble-sign
     - rupee-sign
@@ -562,6 +607,9 @@ design:
     - pen-alt
     - pencil
     - pencil-alt
+    - ruler-horizontal
+    - ruler-vertical
+    - ruler-combined
     - save
     - tint
   label: Design
@@ -630,6 +678,9 @@ editors:
     - undo
     - undo-alt
     - unlink
+    - wrench
+    - screwdriver
+    - glasses
   label: Editors
 files:
   icons:
@@ -735,6 +786,7 @@ images:
     - image
     - images
     - portrait
+    - chalkboard
     - rectangle-landscape
     - rectangle-portrait
     - rectangle-wide
@@ -910,6 +962,9 @@ interfaces:
     - user-alt
     - user-circle
     - wifi
+    - wrench
+    - screwdriver
+    - glasses
   label: Interfaces
 logistics:
   icons:
@@ -944,11 +999,16 @@ logistics:
     - barcode-scan
     - barcode-read
   label: Logistics
+  sponsored:
+    label: StayLinked
+    url: 'https://www.staylinked.com'
 maps:
   icons:
     - ambulance
     - anchor
     - balance-scale
+    - balance-scale-left
+    - balance-scale-right
     - bath
     - bed
     - beer
@@ -960,6 +1020,7 @@ maps:
     - blind
     - bomb
     - book
+    - shoe-prints
     - bookmark
     - briefcase
     - building
@@ -970,6 +1031,7 @@ maps:
     - eye
     - eye-slash
     - fighter-jet
+    - helicopter
     - fire
     - fire-extinguisher
     - flag
@@ -1066,6 +1128,22 @@ maps:
     - wifi
     - wrench
   label: Maps
+mathematics:
+  icons:
+    - plus
+    - minus
+    - times
+    - divide
+    - percentage
+    - equals
+    - not-equal
+    - greater-than
+    - less-than
+    - less-than-equal
+    - greater-than-equal
+    - subscript
+    - superscript
+  label: Mathematics
 medical:
   icons:
     - allergies
@@ -1102,6 +1180,9 @@ medical:
     - weight
     - x-ray
   label: Medical
+  sponsored:
+    label: Harvard Medical School
+    url: 'https://hms.harvard.edu'
 moving:
   icons:
     - truck-moving
@@ -1135,6 +1216,9 @@ moving:
     - archive
     - route
   label: Moving
+  sponsored:
+    label: HireAHelper
+    url: 'https://www.hireahelper.com'
 objects:
   icons:
     - alarm-clock
@@ -1142,7 +1226,12 @@ objects:
     - anchor
     - archive
     - balance-scale
+    - balance-scale-left
+    - balance-scale-right
     - bath
+    - stroopwafel
+    - blender
+    - glasses
     - bed
     - beer
     - bell
@@ -1165,6 +1254,7 @@ objects:
     - camera-alt
     - camera-retro
     - car
+    - helicopter
     - clipboard
     - cloud
     - coffee
@@ -1203,6 +1293,8 @@ objects:
     - headphones
     - heart
     - home
+    - church
+    - school
     - hospital
     - hourglass
     - image
@@ -1236,6 +1328,26 @@ objects:
     - mobile-alt
     - mobile-android
     - mobile-android-alt
+    - money-bill
+    - screwdriver
+    - toolbox
+    - broadcast-tower
+    - dice
+    - dice-one
+    - dice-two
+    - dice-three
+    - dice-four
+    - dice-five
+    - dice-six
+    - ruler-horizontal
+    - ruler-vertical
+    - ruler-combined
+    - door-open
+    - door-closed
+    - wallet
+    - money-check
+    - money-check-alt
+    - memory
     - money-bill
     - money-bill-alt
     - moon
@@ -1337,6 +1449,8 @@ payments-shopping:
     - credit-card
     - credit-card-blank
     - credit-card-front
+    - money-check
+    - money-check-alt
     - ethereum
     - gem
     - gift
@@ -1448,6 +1562,9 @@ status:
     - bell
     - bell-slash
     - calendar
+    - door-open
+    - door-closed
+    - stream
     - calendar-alt
     - calendar-check
     - calendar-edit
@@ -1519,12 +1636,14 @@ users-people:
     - address-book
     - address-card
     - bed
+    - chalkboard-teacher
     - blind
     - child
     - female
     - frown
     - id-badge
     - id-card
+    - id-card-alt
     - male
     - meh
     - poo
@@ -1540,6 +1659,21 @@ users-people:
     - user-secret
     - user-times
     - users
+    - user-astronaut
+    - user-check
+    - user-clock
+    - user-cog
+    - user-edit
+    - user-friends
+    - user-graduate
+    - user-lock
+    - user-minus
+    - user-ninja
+    - user-shield
+    - user-slash
+    - user-tag
+    - user-tie
+    - user-alt-slash
     - wheelchair
   label: Users & People
 vehicles:
@@ -1563,6 +1697,7 @@ vehicles:
     - train
     - truck
     - wheelchair
+    - helicopter
   label: Vehicles
 writing:
   icons:
